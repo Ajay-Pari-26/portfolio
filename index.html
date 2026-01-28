@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Ajay Pari | System Engineer</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
 </head>
 <body>
+
+<!-- NAVBAR -->
 <nav id="desktop-nav">
     <div class="logo">Ajay Pari</div>
     <div>
@@ -20,13 +22,12 @@
         </ul>
     </div>
 </nav>
+
 <nav id="hamburger-nav">
     <div class="logo">Ajay Pari</div>
     <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
+            <span></span><span></span><span></span>
         </div>
         <div class="menu-links">
             <li><a href="#about" onclick="toggleMenu()">About</a></li>
@@ -36,6 +37,8 @@
         </div>
     </div>
 </nav>
+
+<!-- PROFILE -->
 <section id="profile">
     <div class="section__pic-container">
         <img src="./assets/profile-pic.png" alt="Ajay Pari profile picture" />
@@ -43,341 +46,189 @@
     <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Ajay Pari</h1>
-        <p class="section__text__p2">Java Backend Developer</p>
+        <p class="section__text__p2">
+            Entry-Level System Engineer | Java Backend Developer
+        </p>
+
         <div class="btn-container">
-            <button
-                    class="btn btn-color-2"
-                    onclick="window.open('./assets/AJAY_PARI_JAVA_DEVELOPER.pdf')"
-            >
+            <button class="btn btn-color-2"
+                onclick="window.open('./assets/AJAY_PARI_JAVA_DEVELOPER.pdf')">
                 Download CV
             </button>
-            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            <button class="btn btn-color-1" onclick="location.href='#contact'">
                 Contact Info
             </button>
         </div>
+
         <div id="socials-container">
-            <img
-                    src="./assets/linkedin.png"
-                    alt="My LinkedIn profile"
-                    class="icon"
-                    onclick="location.href='https://linkedin.com/in/ajaypari-javadeveloper/'"
-            />
-            <img
-                    src="./assets/github.png"
-                    alt="My Github profile"
-                    class="icon"
-                    onclick="location.href='https://github.com/Ajay-Pari-26/'"
-            />
+            <img src="./assets/linkedin.png" class="icon"
+                 onclick="location.href='https://linkedin.com/in/ajaypari-javadeveloper/'" />
+            <img src="./assets/github.png" class="icon"
+                 onclick="location.href='https://github.com/Ajay-Pari-26/'" />
         </div>
     </div>
 </section>
+
+<!-- ABOUT -->
 <section id="about">
-  <p class="section__text__p1">Get To Know More</p>
-  <h1 class="title">About Me</h1>
-  <div class="section-container">
-    <div class="about-details-container">
-      <div class="about-containers">
-        <div class="details-container">
-          <img
-            src="./assets/experience.png"
-            alt="Experience icon"
-            class="icon"
-          />
-          <h3>Professional Summary</h3>
-          <p>
-            I’m a Computer Engineering and AI graduate with a 4-month internship in Java backend development.<br><br>
-            Passionate Java Backend Developer skilled in Spring Boot, Microservices, and RESTful APIs.<br><br>
-            Seeking an entry-level backend role to contribute to scalable web applications and to further develop my skills in a collaborative team environment.<br><br>
-            I’ve built projects using Java, Spring Boot, and SQL, and I’m passionate about becoming a full-stack developer.
-          </p>
-        </div>
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
 
-        <div class="details-container">
-          <img
-            src="./assets/education.png"
-            alt="Education icon"
-            class="icon"
-          />
-          <h3>Education</h3>
-          <p>
-            <strong>Bachelor of Technology</strong><br>
-            Ganpat University, Mehsana, Gujarat<br>
-            Branch: Computer Engineering | CGPA: 6.92 | 08/2020 – 06/2024<br><br>
-            <strong>12th Standard</strong><br>
-            Narayana Junior College, Guntur, Andhra Pradesh<br>
-            CGPA: 9.69 | 2018 – 2020<br><br>
-            <strong>10th Standard</strong><br>
-            Sriji High School, Ongole, Andhra Pradesh<br>
-            CGPA: 10.0 | 2017 – 2018
-          </p>
+    <div class="section-container">
+        <div class="about-details-container">
+            <div class="about-containers">
+
+                <div class="details-container">
+                    <img src="./assets/experience.png" class="icon" />
+                    <h3>Professional Summary</h3>
+                    <p>
+                        Computer Engineering and AI graduate with a 4-month internship
+                        in Java backend development and hands-on experience building
+                        scalable applications using Java, Spring Boot, REST APIs, and SQL.<br><br>
+
+                        Currently working as a <strong>Digital Interaction Advisor at [24]7.ai
+                        (since September 26, 2025)</strong>, gaining experience in system handling,
+                        problem-solving, and real-time production support environments.<br><br>
+
+                        Seeking an <strong>entry-level System Engineer / Software Engineer role</strong>
+                        to contribute to backend services, application support, and system-level
+                        problem solving, while growing into a full-stack developer.
+                    </p>
+                </div>
+
+                <div class="details-container">
+                    <img src="./assets/education.png" class="icon" />
+                    <h3>Education</h3>
+                    <p>
+                        <strong>B.Tech – Computer Engineering</strong><br>
+                        Ganpat University, Gujarat<br>
+                        CGPA: 6.92 | 2020 – 2024<br><br>
+
+                        <strong>12th Standard</strong><br>
+                        Narayana Junior College, Guntur<br>
+                        CGPA: 9.69 | 2018 – 2020<br><br>
+
+                        <strong>10th Standard</strong><br>
+                        Sriji High School, Ongole<br>
+                        CGPA: 10.0 | 2017 – 2018
+                    </p>
+                </div>
+
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-  <img
-    src="./assets/arrow.png"
-    alt="Arrow icon"
-    class="icon arrow"
-    onclick="location.href='./#experience'"
-  />
+
+    <img src="./assets/arrow.png" class="icon arrow"
+         onclick="location.href='#experience'" />
 </section>
 
+<!-- SKILLS -->
 <section id="experience">
     <p class="section__text__p1">Explore My</p>
-    <h1 class="title">Skills</h1>
+    <h1 class="title">Technical Skills</h1>
+
     <div class="experience-details-container">
         <div class="about-containers">
-            <div class="details-container">
-                <h2 class="experience-sub-title">Frontend Development</h2>
-                <div class="article-container">
-                    <article>
-                        <img
-                                src="./assets/checkmark.png"
-                                alt="Experience icon"
-                                class="icon"
-                        />
-                        <div>
-                            <h3>HTML</h3>
-                            <p>Experienced</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img
-                                src="./assets/checkmark.png"
-                                alt="Experience icon"
-                                class="icon"
-                        />
-                        <div>
-                            <h3>CSS</h3>
-                            <p>Experienced</p>
-                        </div>
-                    </article>
-<!--                    <article>-->
-<!--                        <img-->
-<!--                                src="./assets/checkmark.png"-->
-<!--                                alt="Experience icon"-->
-<!--                                class="icon"-->
-<!--                        />-->
-<!--                        <div>-->
-<!--                            <h3>SASS</h3>-->
-<!--                            <p>Intermediate</p>-->
-<!--                        </div>-->
-<!--                    </article>-->
-                    <article>
-                        <img
-                                src="./assets/checkmark.png"
-                                alt="Experience icon"
-                                class="icon"
-                        />
-                        <div>
-                            <h3>JavaScript</h3>
-                            <p>Basic</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img
-                                src="./assets/checkmark.png"
-                                alt="Experience icon"
-                                class="icon"
-                        />
-                        <div>
-                            <h3>React JS</h3>
-                            <p>Basic</p>
-                        </div>
-                    </article>
-<!--                    <article>-->
-<!--                        <img-->
-<!--                                src="./assets/checkmark.png"-->
-<!--                                alt="Experience icon"-->
-<!--                                class="icon"-->
-<!--                        />-->
-<!--                        <div>-->
-<!--                            <h3>Material UI</h3>-->
-<!--                            <p>Intermediate</p>-->
-<!--                        </div>-->
-<!--                    </article>-->
-                </div>
-            </div>
-            <div class="details-container">
-                <h2 class="experience-sub-title">Backend Development</h2>
-                <div class="article-container">
-                    <article>
-                        <img
-                                src="./assets/checkmark.png"
-                                alt="Experience icon"
-                                class="icon"
-                        />
-                        <div>
-                            <h3>Java</h3>
-                            <p>Experienced</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img
-                                src="./assets/checkmark.png"
-                                alt="Experience icon"
-                                class="icon"
-                        />
-                        <div>
-                            <h3>Spring Boot</h3>
-                            <p>Intermediate</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img
-                                src="./assets/checkmark.png"
-                                alt="Experience icon"
-                                class="icon"
-                        />
-                        <div>
-                            <h3>MySQL</h3>
-                            <p>Intermediate</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img
-                                src="./assets/checkmark.png"
-                                alt="Experience icon"
-                                class="icon"
-                        />
-                        <div>
-                            <h3>Microservices</h3>
-                            <p>Intermediate</p>
-                        </div>
-                    </article>
 
+            <!-- FRONTEND -->
+            <div class="details-container">
+                <h2 class="experience-sub-title">Frontend</h2>
+                <div class="article-container">
+                    <article><img src="./assets/checkmark.png" class="icon" /><div><h3>HTML</h3><p>Experienced</p></div></article>
+                    <article><img src="./assets/checkmark.png" class="icon" /><div><h3>CSS</h3><p>Experienced</p></div></article>
+                    <article><img src="./assets/checkmark.png" class="icon" /><div><h3>JavaScript</h3><p>Basic</p></div></article>
+                    <article><img src="./assets/checkmark.png" class="icon" /><div><h3>React</h3><p>Basic</p></div></article>
                 </div>
             </div>
+
+            <!-- BACKEND -->
+            <div class="details-container">
+                <h2 class="experience-sub-title">Backend</h2>
+                <div class="article-container">
+                    <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Java</h3><p>Experienced</p></div></article>
+                    <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Spring Boot</h3><p>Intermediate</p></div></article>
+                    <article><img src="./assets/checkmark.png" class="icon" /><div><h3>MySQL</h3><p>Intermediate</p></div></article>
+                    <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Microservices</h3><p>Intermediate</p></div></article>
+                </div>
+            </div>
+
+            <!-- TOOLS -->
+            <div class="details-container">
+                <h2 class="experience-sub-title">Tools & Systems</h2>
+                <div class="article-container">
+                    <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Git & GitHub</h3><p>Intermediate</p></div></article>
+                    <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Linux Basics</h3><p>Basic</p></div></article>
+                    <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Postman</h3><p>API Testing</p></div></article>
+                </div>
+            </div>
+
         </div>
     </div>
-    <img
-            src="./assets/arrow.png"
-            alt="Arrow icon"
-            class="icon arrow"
-            onclick="location.href='./#projects'"
-    />
+
+    <img src="./assets/arrow.png" class="icon arrow"
+         onclick="location.href='#projects'" />
 </section>
+
+<!-- PROJECTS -->
 <section id="projects">
     <p class="section__text__p1">Browse My Recent</p>
     <h1 class="title">Projects</h1>
+
     <div class="experience-details-container">
         <div class="about-containers">
+
             <div class="details-container color-container">
-                <div class="article-container">
-                    <img
-                            src="./assets/project-1.png"
-                            alt="Project 1"
-                            class="project-img"
-                    />
-                </div>
-                <h2 class="experience-sub-title project-title">Food API Backend</h2>
+                <img src="./assets/project-1.png" class="project-img" />
+                <h2 class="experience-sub-title">Food API Backend</h2>
+                <p style="text-align:center;font-size:14px;">
+                    REST APIs, database integration, backend business logic
+                </p>
                 <div class="btn-container">
-                    <button
-                            class="btn btn-color-2 project-btn"
-                            onclick="location.href='https://github.com/Ajay-Pari-26/foodApi'"
-                    >
-                        Github
-                    </button>
-                    <button
-                            class="btn btn-color-2 project-btn"
-                            onclick="location.href='https://github.com/Ajay-Pari-26/foodApi'"
-                    >
-                        Live Demo
-                    </button>
+                    <button class="btn btn-color-2"
+                        onclick="location.href='https://github.com/Ajay-Pari-26/foodApi'">GitHub</button>
                 </div>
             </div>
+
             <div class="details-container color-container">
-                <div class="article-container">
-                    <img
-                            src="./assets/jobportal.png"
-                            alt="Project 2"
-                            class="project-img"
-                    />
-                </div>
-                <h2 class="experience-sub-title project-title">Job Portal</h2>
+                <img src="./assets/jobportal.png" class="project-img" />
+                <h2 class="experience-sub-title">Job Portal</h2>
+                <p style="text-align:center;font-size:14px;">
+                    Full-stack job management system using Java & SQL
+                </p>
                 <div class="btn-container">
-                    <button
-                            class="btn btn-color-2 project-btn"
-                            onclick="location.href='https://github.com/Ajay-Pari-26/online-job-portal.git'"
-                    >
-                        Github
-                    </button>
-                    <button
-                            class="btn btn-color-2 project-btn"
-                            onclick="location.href='https://github.com/Ajay-Pari-26/online-job-portal.git'"
-                    >
-                        Live Demo
-                    </button>
+                    <button class="btn btn-color-2"
+                        onclick="location.href='https://github.com/Ajay-Pari-26/online-job-portal.git'">GitHub</button>
                 </div>
             </div>
-            <div class="details-container color-container">
-                <div class="article-container">
-                    <img
-                            src="./assets/portfolio.png"
-                            alt="Project 3"
-                            class="project-img"
-                    />
-                </div>
-                <h2 class="experience-sub-title project-title">Portfolio</h2>
-                <div class="btn-container">
-                    <button
-                            class="btn btn-color-2 project-btn"
-                            onclick="location.href='https://github.com/Ajay-Pari-26/portfolio.git'"
-                    >
-                        Github
-                    </button>
-                    <button
-                            class="btn btn-color-2 project-btn"
-                            onclick="location.href='https://curious-kataifi-e1fe77.netlify.app/'"
-                    >
-                        Live Demo
-                    </button>
-                </div>
-            </div>
+
         </div>
     </div>
-    <img
-            src="./assets/arrow.png"
-            alt="Arrow icon"
-            class="icon arrow"
-            onclick="location.href='./#contact'"
-    />
+
+    <img src="./assets/arrow.png" class="icon arrow"
+         onclick="location.href='#contact'" />
 </section>
+
+<!-- CONTACT -->
 <section id="contact">
     <p class="section__text__p1">Get in Touch</p>
     <h1 class="title">Contact Me</h1>
+
     <div class="contact-info-upper-container">
         <div class="contact-info-container">
-            <img
-                    src="./assets/email.png"
-                    alt="Email icon"
-                    class="icon contact-icon email-icon"
-            />
+            <img src="./assets/email.png" class="icon contact-icon" />
             <p><a href="mailto:ajay2102002@gmail.com">ajay2102002@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
-            <img
-                    src="./assets/linkedin.png"
-                    alt="LinkedIn icon"
-                    class="icon contact-icon"
-            />
-            <p><a href="https://www.linkedin.com/in/ajaypari-javadeveloper">LinkedIn</a></p>
+            <img src="./assets/linkedin.png" class="icon contact-icon" />
+            <p><a href="https://linkedin.com/in/ajaypari-javadeveloper">LinkedIn</a></p>
         </div>
     </div>
 </section>
+
 <footer>
-    <nav>
-        <div class="nav-links-container">
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-    <p>Copyright &#169; 2025 Ajay Pari. All Rights Reserved.</p>
+    <p>© 2025 Ajay Pari. All Rights Reserved.</p>
 </footer>
+
 <script src="script.js"></script>
 </body>
 </html>
